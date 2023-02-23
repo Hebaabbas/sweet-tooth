@@ -7,15 +7,36 @@
 body{
     font-family: 'Great Vibes', cursive;
     font weight: 400;
-    color: #3a3a3a;
+    color:#AF1C3E;
+
 }
 /* headings and logo */
 h1, h2{
     text-transform:none;
     letter-spacing: 1px;
-    color:darkred;
+    color:rgb(126, 9, 38);
 }
 #logo{
     float: left;
     font-size: 400%;
+}
+/* navigation links */
+#menu{
+    font-size: 150%;
+    letter-spacing: 1px;
+}
+#menu, #logo{
+    line-height: 90px;
+}
+#menu li{
+    float: right;
+    list-style-type: none;
+    margin: right 30px;
+}
+#menu a{
+    text-decoration: none;
+    color:inherit;
+}
+#menu a:hover{
+    border-bottom: 1px solid gold;
 }
