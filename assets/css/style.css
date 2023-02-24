@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     border: none;
-    
 }
 body{
     font-family: 'Great Vibes', cursive;
@@ -64,9 +63,7 @@ h1, h2{
     border-bottom: 1px solid gold;
 }
 /* cakes flavours*/
-#cakes-flavours{
-    background-color:rgb(247, 204, 211);
-}
+
 #cakes-flavours div{
     width:20%;
     height:300px;
@@ -85,9 +82,17 @@ h1, h2{
     border:2px solid darkred;
     box-sizing: border-box;
 }
+
+/*Contact info*/
+
+footer{
+    height: 50px;
+}
 #info{
     background-image:url('../images/cupcakes.png');
     font-size: 20px;
-    padding-bottom: 20%;
-    background:center 50% / cover no-repeat;
+    padding-bottom: 30%;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 200%;
 }
