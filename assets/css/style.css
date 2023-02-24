@@ -85,3 +85,9 @@ h1, h2{
     border:2px solid darkred;
     box-sizing: border-box;
 }
+#info{
+    background-image:url('../images/cupcakes.png');
+    font-size: 20px;
+    padding-bottom: 20%;
+    background:center 50% / cover no-repeat;
+}
