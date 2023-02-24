@@ -16,16 +16,14 @@ body{
 #logo{
     background-image:url('../images/cupcakes.png');
     font-size: 40px;
-    padding-top: 10px;
+    padding-top: 20px;
     animation-name:logo-zoom;
     animation-duration: 5s;
     animation-fill-mode:forwards;
 }
 
 h1{padding-top: 15px;}
-.page-header{
-    height:45vh;
-    background:center 50% / cover no-repeat;
+.page-header{height:45vh; background:center 50% / cover no-repeat;
 }
 
 @keyframes logo-zoom {
@@ -50,12 +48,12 @@ h1, h2{
     
 }
 #menu, #logo{
-    line-height: 90px;
+    line-height: 80px;
 }
 #menu li{
     float: right ;
     list-style-type: none;
-    margin: right 30px;
+    margin: right 30px;  
     padding-right: 5%;
 }
 #menu a{
@@ -164,4 +162,5 @@ footer{
 /* Subscription info */
 input[type="text"], input[type="email"], input[type="number"], input[type="radio"], input[type="submit"]{
 background-color:pink;
+font-size: large;
 }
