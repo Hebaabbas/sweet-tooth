@@ -17,14 +17,14 @@ body{
 #logo{
     background-image:url('../images/cupcakes.png');
     font-size: 40px;
-    padding-top: 20px ;
+    padding-top: 10;
     animation-name:logo-zoom;
     animation-duration: 5s;
     animation-fill-mode:forwards;
 }
 
 .page-header{
-    height:35vh;
+    height:45vh;
     background:center 50% / cover no-repeat;
 }
 
