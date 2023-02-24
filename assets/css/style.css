@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&display=swap" rel="stylesheet');
 *{
-    margin: 0;
-    padding: 0;
+    margin-top: 0px;
+    padding:0;
     border: none;
 }
 body{
@@ -16,12 +16,13 @@ body{
 #logo{
     background-image:url('../images/cupcakes.png');
     font-size: 40px;
-    padding-top: 10;
+    padding-top: 10px;
     animation-name:logo-zoom;
     animation-duration: 5s;
     animation-fill-mode:forwards;
 }
 
+h1{padding-top: 15px;}
 .page-header{
     height:45vh;
     background:center 50% / cover no-repeat;
@@ -44,7 +45,7 @@ h1, h2{
 
 /* navigation links */
 #menu{
-    font-size:30px;
+    font-size:20px;
     letter-spacing: 1px;
     
 }
@@ -52,9 +53,10 @@ h1, h2{
     line-height: 90px;
 }
 #menu li{
-    float: right;
+    float: right ;
     list-style-type: none;
     margin: right 30px;
+    padding-right: 5%;
 }
 #menu a{
     text-decoration: none;
@@ -71,7 +73,7 @@ h1, h2{
     float:left;
     padding: 30px 0 0 10px;
     text-align: center;
-    border:2px solid pink;
+    border:5px solid pink;
     box-sizing: border-box;
     margin:10px auto;
 }
@@ -81,16 +83,75 @@ h1, h2{
     float:left;
     padding: 30px 0 0 10px;
     text-align: center;
-    border:2px solid pink;
+    border:5px solid pink;
     box-sizing: border-box;
 }
+#cake1{
+    background-image:url('../images/vanilla.jpeg');
+    background-size:cover;
+}
+#cake2{
+    background-image:url('../images/chocolate.jpeg');
+    background-size:cover;
+    
+}
+#cake3
+{
+    background-image:url('../images/pistachio.jpeg');
+    background-size:cover;
+    
+}
+#cake4
+{
+    background-image:url('../images/cheesecake.jpeg');
+    background-size:cover;
+    
+}
+#cake5
+{
+    background-image:url('../images/red\ velvet.jpeg');
+    background-size:cover;
+    
+}
+#cupcake1
+{
+    background-image:url('../images/vanilla\ cupcakes.jpeg');
+    background-size:cover;
+    
+}
+#cupcake2
+{
+    background-image:url('../images/chocolate\ cupcakes.jpeg');
+    background-size:cover;
+    
+}
+#cupcake3
+{
+    background-image:url('../images/caramel\ cupcakes.jpeg');
+    background-size:cover;
+    
+}
+#coockie1
+{
+    background-image:url('../images/white\ coockies.jpeg');
+    background-size:cover;
+    
+}
+#coockie2
+{
+    background-image:url('../images/chocolate\ coockies.jpeg');
+    background-size:cover;
+    
+}
+
+
 
 strong{color: rgb(129, 61, 61);
 }
-/*Contact info*/
-
+/* Contact info */
 footer{
     height: 50px;
+    
 }
 #info{
     background-image:url('../images/cupcakes.png');
@@ -100,6 +161,7 @@ footer{
     text-align: center;
     font-size: 200%;
 }
+/* Subscription info */
 input[type="text"], input[type="email"], input[type="number"], input[type="radio"], input[type="submit"]{
 background-color:pink;
 }
