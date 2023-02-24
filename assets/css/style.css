@@ -7,7 +7,8 @@
 body{
     font-family: 'Great Vibes', cursive;
     font weight: 400;
-    color:#AF1C3E;
+    background-image:url('https://images.pond5.com/beautiful-beige-glitter-background-and-footage-111906949_iconl.jpeg');
+    
 
 }
 /* headings and logo */
@@ -98,4 +99,7 @@ footer{
     background-repeat: no-repeat;
     text-align: center;
     font-size: 200%;
+}
+input[type="text"], input[type="email"], input[type="number"], input[type="radio"], input[type="submit"]{
+background-color:pink;
 }
