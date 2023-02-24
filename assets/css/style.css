@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     border: none;
+    background-color:E6E8FA ;
+    
 }
 body{
     font-family: 'Great Vibes', cursive;
@@ -11,19 +13,41 @@ body{
 
 }
 /* headings and logo */
+
+#logo{
+    background-image:url('../images/cupcakes.png');
+    font-size: 40px;
+    padding-top: 20px ;
+    animation-name:logo-zoom;
+    animation-duration: 5s;
+    animation-fill-mode:forwards;
+}
+
+.page-header{
+    height:35vh;
+    background:center 50% / cover no-repeat;
+}
+
+@keyframes logo-zoom {
+    from{transform: scale(1);
+    }
+    to{transform:scale(1.1);
+    }
+}
+.text-center{
+    text-align:center;
+}
 h1, h2{
     text-transform:none;
     letter-spacing: 1px;
     color:rgb(126, 9, 38);
 }
-#logo{
-    float: left;
-    font-size: 400%;
-}
+
 /* navigation links */
 #menu{
-    font-size: 150%;
+    font-size:30px;
     letter-spacing: 1px;
+    
 }
 #menu, #logo{
     line-height: 90px;
