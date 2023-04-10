@@ -8,10 +8,20 @@ body{
     font-family: 'Great Vibes', cursive;
     font weight: 400;
     background-image:url('https://images.pond5.com/beautiful-beige-glitter-background-and-footage-111906949_iconl.jpeg');
-    
-
+    padding: 50px;
 }
+
+section {
+    margin-bottom: 50px;
+  }
+
 /* headings and logo */
+.container {
+    max-width:1080px;
+    width: 100%;
+    padding: 1rem;
+    margin: 0 auto;
+}
 
 #logo{
     background-image:url('../images/cupcakes.png');
@@ -21,7 +31,6 @@ body{
     animation-duration: 5s;
     animation-fill-mode:forwards;
 }
-
 h1{padding-top: 15px;}
 .page-header{height:45vh; background:center 50% / cover no-repeat;
 }
@@ -32,6 +41,11 @@ h1{padding-top: 15px;}
     to{transform:scale(1.1);
     }
 }
+
+h1{padding-top: 15px;}
+.page-header{height:45vh; background:center 50% / cover no-repeat;
+}
+
 .text-center{
     text-align:center;
 }
@@ -71,7 +85,7 @@ h1, h2{
     float:left;
     padding: 30px 0 0 10px;
     text-align: center;
-    border:5px solid pink;
+    border:5px solid rgb(126, 9, 38);
     box-sizing: border-box;
     margin:10px auto;
 }
@@ -81,7 +95,7 @@ h1, h2{
     float:left;
     padding: 30px 0 0 10px;
     text-align: center;
-    border:5px solid pink;
+    border:5px solid rgb(126, 9, 38);
     box-sizing: border-box;
 }
 #cake1{
@@ -107,37 +121,37 @@ h1, h2{
 }
 #cake5
 {
-    background-image:url('../images/red\ velvet.jpeg');
+    background-image:url('../images/red.jpeg');
     background-size:cover;
     
 }
 #cupcake1
 {
-    background-image:url('../images/vanilla\ cupcakes.jpeg');
+    background-image:url('../images/vanilla-cup.jpeg');
     background-size:cover;
     
 }
 #cupcake2
 {
-    background-image:url('../images/chocolate\ cupcakes.jpeg');
+    background-image:url('../images/choco-cup.jpeg');
     background-size:cover;
     
 }
 #cupcake3
 {
-    background-image:url('../images/caramel\ cupcakes.jpeg');
+    background-image:url('../images/caramel.jpeg');
     background-size:cover;
     
 }
 #coockie1
 {
-    background-image:url('../images/white\ coockies.jpeg');
+    background-image:url('../images/white.jpeg');
     background-size:cover;
     
 }
 #coockie2
 {
-    background-image:url('../images/chocolate\ coockies.jpeg');
+    background-image:url('../images/choco.jpeg');
     background-size:cover;
     
 }
@@ -152,7 +166,6 @@ footer{
     
 }
 #info{
-    background-image:url('../images/cupcakes.png');
     font-size: 20px;
     padding-bottom: 30%;
     background-repeat: no-repeat;
@@ -160,7 +173,12 @@ footer{
     font-size: 200%;
 }
 /* Subscription info */
+#Subscribe-and-win{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
 input[type="text"], input[type="email"], input[type="number"], input[type="radio"], input[type="submit"]{
 background-color:pink;
 font-size: large;
+
 }
