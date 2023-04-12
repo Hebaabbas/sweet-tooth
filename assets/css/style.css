@@ -15,6 +15,7 @@ section {
     margin-bottom: 50px;
   }
 
+
 /* headings and logo */
 .container {
     max-width:1080px;
@@ -77,9 +78,12 @@ h1, h2{
 #menu a:hover{
     border-bottom: 1px solid gold;
 }
+#intro{
+  ;
+}
 /* cakes flavours*/
 
-#cakes-flavours div{
+#cakes div{
     width:20%;
     height:300px;
     float:left;
@@ -88,8 +92,9 @@ h1, h2{
     border:5px solid rgb(126, 9, 38);
     box-sizing: border-box;
     margin:10px auto;
+    font-family: 'PT Sans', sans-serif;
 }
-#Cupcakesandcoockies-flavours div{
+#Cupcakesandcoockies div{
     width:20%;
     height:300px;
     float:left;
@@ -97,7 +102,9 @@ h1, h2{
     text-align: center;
     border:5px solid rgb(126, 9, 38);
     box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
 }
+    
 #cake1{
     background-image:url('../images/vanilla.jpeg');
     background-size:cover;
@@ -165,13 +172,7 @@ footer{
     height: 50px;
     
 }
-#info{
-    font-size: 20px;
-    padding-bottom: 30%;
-    background-repeat: no-repeat;
-    text-align: center;
-    font-size: 200%;
-}
+
 /* Subscription info */
 #Subscribe-and-win{
     margin-bottom: 50px;
@@ -180,5 +181,61 @@ footer{
 input[type="text"], input[type="email"], input[type="number"], input[type="radio"], input[type="submit"]{
 background-color:pink;
 font-size: large;
+
+}
+
+/* Styles for screens smaller than 768px */
+@media screen and (max-width: 767px) {
+    body {
+      font-size: 16px;
+    }
+    #logo {
+      font-size: 30px;
+    }
+    #menu li {
+      margin-right: 10px;
+    }
+    #cakes div, #Cupcakesandcoockies div {
+      width: 50%;
+    }
+  }
+  
+  /* Styles for screens between 768px and 1023px */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+      font-size: 18px;
+    }
+    #logo {
+      font-size: 35px;
+    }
+    #menu li {
+      margin-right: 20px;
+    }
+    #cakes div, #Cupcakesandcoockies div {
+      width: 30%;
+    }
+  }
+  
+  /* Styles for screens larger than 1024px */
+  @media screen and (min-width: 1024px) {
+    body {
+      font-size: 20px;
+    }
+    #logo {
+      font-size: 40px;
+    }
+    #menu li {
+      margin-right: 30px;
+    }
+    #cakes div, #Cupcakesandcoockies div {
+      width: 20%;
+    }
+  }
+  #info{
+
+      font-size: 25px;
+      padding-bottom: 20%;
+      text-align:left;
+
 
 }
