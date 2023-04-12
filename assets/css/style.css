@@ -78,9 +78,7 @@ h1, h2{
 #menu a:hover{
     border-bottom: 1px solid gold;
 }
-#intro{
-  ;
-}
+
 /* cakes flavours*/
 
 #cakes div{
@@ -167,11 +165,7 @@ h1, h2{
 
 strong{color: rgb(129, 61, 61);
 }
-/* Contact info */
-footer{
-    height: 50px;
-    
-}
+
 
 /* Subscription info */
 #Subscribe-and-win{
@@ -180,7 +174,7 @@ footer{
 }
 input[type="text"], input[type="email"], input[type="number"], input[type="radio"], input[type="submit"]{
 background-color:pink;
-font-size: large;
+font-size: 20px;
 
 }
 
@@ -231,11 +225,10 @@ font-size: large;
       width: 20%;
     }
   }
-  #info{
-
-      font-size: 25px;
-      padding-bottom: 20%;
-      text-align:left;
-
-
+/* Contact info */
+footer{
+  font-size: 20px;
+  padding-bottom: 30%;
+  text-align:center;
+  
 }
