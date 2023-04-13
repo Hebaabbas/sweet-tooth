@@ -8,13 +8,11 @@ body{
     font-family: 'Great Vibes', cursive;
     font weight: 400;
     background-image: url('../images/glitter.webp');
-    padding: 50px;
+    display: inline-block;
 }
-
 section {
-    margin-bottom: 50px;
-  }
-
+  margin-bottom: 50px;
+}
 
 /* headings and logo */
 .container {
@@ -27,13 +25,10 @@ section {
 #logo{
     background-image:url('../images/cupcakes.png');
     font-size: 40px;
-    padding-top: 20px;
+    padding-top: 30px;
     animation-name:logo-zoom;
     animation-duration: 5s;
     animation-fill-mode:forwards;
-}
-h1{padding-top: 15px;}
-.page-header{height:45vh; background:center 50% / cover no-repeat;
 }
 
 @keyframes logo-zoom {
@@ -50,17 +45,22 @@ h1{padding-top: 15px;}
 .text-center{
     text-align:center;
 }
-h1, h2{
+h1, h2, strong{
     text-transform:none;
     letter-spacing: 1px;
-    color:rgb(126, 9, 38);
+    color:rgb(159, 9, 47);
 }
+h3{
+  color:black;
+  font-family: 'Tilt Prism', cursive;
+    text-align: left;
 
+}
 /* navigation links */
 #menu{
     font-size:20px;
     letter-spacing: 1px;
-    
+
 }
 #menu, #logo{
     line-height: 80px;
@@ -74,9 +74,10 @@ h1, h2{
 #menu a{
     text-decoration: none;
     color:inherit;
+    font-size: smaller;
 }
 #menu a:hover{
-    border-bottom: 1px solid gold;
+    border-bottom: 1px solid rgb(230, 198, 200);
 }
 
 /* cakes flavours*/
@@ -85,22 +86,21 @@ h1, h2{
     width:20%;
     height:300px;
     float:left;
-    padding: 30px 0 0 10px;
     text-align: center;
-    border:5px solid rgb(126, 9, 38);
+    border:3px solid rgb(230, 198, 200);
     box-sizing: border-box;
     margin:10px auto;
-    font-family: 'PT Sans', sans-serif;
+    padding: 30px 0 0 10px;
 }
-#Cupcakesandcoockies div{
+#cupcakesandcoockies div{
     width:20%;
     height:300px;
     float:left;
     padding: 30px 0 0 10px;
     text-align: center;
-    border:5px solid rgb(126, 9, 38);
+    border:3px solid rgb(230, 198, 200);
+    margin:10px auto;
     box-sizing: border-box;
-    font-family: 'PT Sans', sans-serif;
 }
     
 #cake1{
@@ -162,38 +162,37 @@ h1, h2{
 }
 
 
-
-strong{color: rgb(129, 61, 61);
-}
-
-
 /* Subscription info */
 #Subscribe-and-win{
-    margin-bottom: 50px;
-    margin-top: 50px;
+  margin-bottom: 10%;
+  margin-top: 20%;
 }
 input[type="text"], input[type="email"], input[type="number"], input[type="radio"], input[type="submit"]{
-background-color:pink;
+background-color:rgb(230, 198, 200);
 font-size: 20px;
 
 }
+#hours, table {
+text-align: center;
+margin: 0 auto;
 
-/* Styles for screens smaller than 768px */
-@media screen and (max-width: 767px) {
-    body {
-      font-size: 16px;
-    }
-    #logo {
-      font-size: 30px;
-    }
-    #menu li {
-      margin-right: 10px;
-    }
-    #cakes div, #Cupcakesandcoockies div {
-      width: 50%;
-    }
+}
+
+/* Styles for screens smaller than 650px */
+@media screen and (max-width: 650px) {
+  body {
+    font-size: 16px;
   }
-  
+  #logo {
+    font-size: 30px;
+  }
+  #menu li {
+    margin-right: 10px;
+  }
+  #cakes div, #Cupcakesandcoockies div {
+    width: 50%;
+  }
+}
   /* Styles for screens between 768px and 1023px */
   @media screen and (min-width: 768px) and (max-width: 1023px) {
     body {
@@ -228,7 +227,9 @@ font-size: 20px;
 /* Contact info */
 footer{
   font-size: 20px;
-  padding-bottom: 30%;
+  padding-bottom: 5%;
+  padding-top: 5%;
   text-align:center;
-  
+
 }
+
