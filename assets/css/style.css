@@ -4,16 +4,17 @@
     padding:0;
     border: none;
 }
+
 body{
-    font-family: 'Great Vibes', cursive;
     font weight: 400;
     background-image: url('../images/glitter.webp');
     display: inline-block;
+    font-family: 'Playfair Display', serif;
+
 }
 section {
   margin-bottom: 50px;
 }
-
 /* headings and logo */
 .container {
     max-width:1080px;
@@ -21,67 +22,65 @@ section {
     padding: 1rem;
     margin: 0 auto;
 }
-
 #logo{
     background-image:url('../images/cupcakes.png');
     font-size: 40px;
     padding-top: 30px;
+    animation-fill-mode:forwards;
     animation-name:logo-zoom;
     animation-duration: 5s;
-    animation-fill-mode:forwards;
 }
-
 @keyframes logo-zoom {
     from{transform: scale(1);
     }
     to{transform:scale(1.1);
     }
 }
-
-h1{padding-top: 15px;}
+h1{padding-top: 15px;
+}
 .page-header{height:45vh; background:center 50% / cover no-repeat;
 }
-
 .text-center{
     text-align:center;
 }
-h1, h2, strong{
+h1, h2, #cupcake-dimention header p {
     text-transform:none;
     letter-spacing: 1px;
-    color:rgb(159, 9, 47);
+    color:rgb(123, 10, 38);
+    font-family: 'Great Vibes', cursive;
+}
+#cupcake-dimention header p {
+  color: black;
 }
 h3{
-  color:black;
-  font-family: 'Tilt Prism', cursive;
-    text-align: left;
+  color:rgb(209, 58, 3);
+  text-align: left;
 
 }
 /* navigation links */
 #menu{
     font-size:20px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    overflow: hidden;
+    background-image: url('../images/glitter.webp');
+    width: 100%;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    ;
+}
+    #menu, #logo{
+      line-height: 70px;
+  }
 
-}
-#menu, #logo{
-    line-height: 80px;
-}
-#menu li{
-    float: right ;
-    list-style-type: none;
-    margin: right 30px;  
-    padding-right: 5%;
-}
 #menu a{
     text-decoration: none;
     color:inherit;
-    font-size: smaller;
 }
 #menu a:hover{
     border-bottom: 1px solid rgb(230, 198, 200);
 }
-
 /* cakes flavours*/
-
 #cakes div{
     width:20%;
     height:300px;
@@ -105,80 +104,93 @@ h3{
 }
     
 #cake1{
-    background-image:url('../images/vanilla.jpeg');
+    background-image:url('../images/cake1.jpeg');
     background-size:cover;
+    background-position: center center;
+
 }
-#cake2{
+#cake3{
     background-image:url('../images/chocolate.jpeg');
     background-size:cover;
+    background-position: center bottom;
+
     
 }
-#cake3
-{
+#cake2{
     background-image:url('../images/pistachio.jpeg');
     background-size:cover;
+    background-position: center center;
+
     
 }
 #cake4
 {
     background-image:url('../images/cheesecake.jpeg');
     background-size:cover;
+    background-position: center center;
+
     
 }
 #cake5
 {
     background-image:url('../images/red.jpeg');
     background-size:cover;
+    background-position: center center;
+
+}
+#cupcake2
+{
+    background-image:url('../images/vanilla-cup.jpeg');
+    background-size:cover;
+    background-position: center center;
+
     
 }
 #cupcake1
 {
-    background-image:url('../images/vanilla-cup.jpeg');
-    background-size:cover;
-    
-}
-#cupcake2
-{
     background-image:url('../images/choco-cup.jpeg');
     background-size:cover;
-    
+    background-position: center center;
+
 }
 #cupcake3
 {
     background-image:url('../images/caramel.jpeg');
     background-size:cover;
+    background-position: center center;
+
     
 }
 #coockie1
 {
     background-image:url('../images/white.jpeg');
     background-size:cover;
+    background-position: center center;
+
     
 }
 #coockie2
 {
     background-image:url('../images/choco.jpeg');
     background-size:cover;
+    background-position: center center;
+
     
 }
-
-
 /* Subscription info */
-#Subscribe-and-win{
+#subscribe-and-win{
   margin-bottom: 10%;
   margin-top: 20%;
+  margin: 30px;
 }
 input[type="text"], input[type="email"], input[type="number"], input[type="radio"], input[type="submit"]{
 background-color:rgb(230, 198, 200);
 font-size: 20px;
-
 }
 #hours, table {
 text-align: center;
 margin: 0 auto;
-
 }
-
 /* Styles for screens smaller than 650px */
 @media screen and (max-width: 768px) {
   body {
@@ -187,14 +199,17 @@ margin: 0 auto;
   #logo {
     font-size: 25px;
   }
+  #menu, #logo {
+    line-height: 40px;
+  }
   #menu li {
     margin-right: 4px;
     letter-spacing: 0px;
-
   }
   #cakes div, #cupcakesandcoockies div {
     width: 100%;
   }
+  font-size: medium;
 }
   /* Styles for screens between 768px and 1023px */
   @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -210,6 +225,7 @@ margin: 0 auto;
     #cakes div, #cupcakesandcoockies div {
       width: 20%;
     }
+    font-size: medium;
   }
   
   /* Styles for screens larger than 1024px */
@@ -226,6 +242,9 @@ margin: 0 auto;
     #cakes div, #cupcakesandcoockies div {
       width: 20%;
     }
+    h3{
+      font-size: medium;
+    }
   }
 /* Contact info */
 footer{
@@ -233,5 +252,24 @@ footer{
   padding-bottom: 5%;
   padding-top: 5%;
   text-align:center;
-
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#info, table, p > article {
+  font-family: 'Playfair Display', serif;
+}
+
+
+
+
+
+
+
