@@ -179,18 +179,20 @@ margin: 0 auto;
 }
 
 /* Styles for screens smaller than 650px */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 768px) {
   body {
-    font-size: 16px;
+    font-size: 18px;
   }
   #logo {
-    font-size: 30px;
+    font-size: 25px;
   }
   #menu li {
-    margin-right: 10px;
+    margin-right: 4px;
+    letter-spacing: 0px;
+
   }
-  #cakes div, #Cupcakesandcoockies div {
-    width: 50%;
+  #cakes div, #cupcakesandcoockies div {
+    width: 100%;
   }
 }
   /* Styles for screens between 768px and 1023px */
@@ -204,8 +206,8 @@ margin: 0 auto;
     #menu li {
       margin-right: 20px;
     }
-    #cakes div, #Cupcakesandcoockies div {
-      width: 30%;
+    #cakes div, #cupcakesandcoockies div {
+      width: 20%;
     }
   }
   
@@ -220,7 +222,7 @@ margin: 0 auto;
     #menu li {
       margin-right: 30px;
     }
-    #cakes div, #Cupcakesandcoockies div {
+    #cakes div, #cupcakesandcoockies div {
       width: 20%;
     }
   }
@@ -232,4 +234,3 @@ footer{
   text-align:center;
 
 }
-
