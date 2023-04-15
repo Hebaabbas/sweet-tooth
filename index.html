@@ -28,72 +28,68 @@
         <a href="#info">Contact us</a>
     </div>
 
-    <div class="Content">
-    <br>
-    <article >
-		<header>
-			<h2>Welcome to our shop!</h2>
-		</header>
-		<section>
-			<h2>Our goal</h2>
-			<p>We offer cakes, cupcakes and coockies of different flavours for all types of occasions</p>
-            <p>We aim to make your memories unforgettable with our flavoured types of sweets</p>
-            <p>Custom orders are availble, please contact us or visit us to make your special order</p>
-            <p>Dont forget to subscibe to our page and we welcome you as a sweet-tooth family member</p>
-
-
-
-		</section>
-    <section id="cakes">
-        <h2>Our Cakes</h2>                   
-            <div id="cake1">
-                <h3>Vanilla: <strong>20€</strong></h3>
-            </div>
-           <div id="cake2">
-               <h3>Pistachio:<strong>25€</strong></h3>
-           </div>
-           <div id="cake3">
-            <h3>Chocolate: <strong>20€</strong></h3>
+    <div class="content">
+        <br>
+        <article >
+		    <header>
+			    <h2>Welcome to our shop!</h2>
+		    </header>
+		    <section>
+			    <h2>Our goal</h2>
+			    <p>We offer cakes, cupcakes and coockies of different flavours for all types of occasions</p>
+                <p>We aim to make your memories unforgettable with our flavoured types of sweets</p>
+                <p>Custom orders are availble, please contact us or visit us to make your special order</p>
+                <p>Dont forget to subscibe to our page and we welcome you as a sweet-tooth family member</p>
+		    </section>
+        </article>
+        <div id="cakes">
+            <h2>Our Cakes</h2>                   
+                <div id="cake1">
+                    <h3>Vanilla: <strong>20€</strong></h3>
+                </div>
+                <div id="cake2">
+                <h3>Pistachio:<strong>25€</strong></h3>
+                </div>
+                <div id="cake3">
+                <h3>Chocolate: <strong>20€</strong></h3>
+                </div>
+                <div id="cake4">
+                <h3>Cheesecake:<strong>30€</strong></h3>
+                </div>
+                <div id="cake5">
+                <h3>Red velvet: <strong>30€</strong></h3>
+                </div>
         </div>
-           <div id="cake4">
-               <h3>Cheesecake:<strong>30€</strong></h3>
-           </div>
-           <div id="cake5">
-               <h3>Red velvet: <strong>30€</strong></h3>
-           </div>
-    </section>
-    <br>
+        <br>
    
-    <div id="cupcakesandcoockies">
+        <div id="cupcakesandcoockies">
         <h2>Our Cupcakes and Coockies</h2>
-        <div id="cupcake1">
+            <div id="cupcake1">
             <h3>Chocolate cupcakes: <strong> 1€/pc</strong></h3>
-        </div>
+            </div>
             <div id="cupcake2">
             <h3>Vanilla cupcakes: <strong> 1€/pc</strong></h3>
-                
             </div>
             <div id="cupcake3">
-                <h3> Caramel cupcakes: <strong> 1€/pc</strong></h3>
+            <h3> Caramel cupcakes: <strong> 1€/pc</strong></h3>
             </div>
             <div id="coockie1">
-                <h3>White chocolate Coockies: <strong>0,5€/pc</strong></h3>
+            <h3>White chocolate Coockies: <strong>0,5€/pc</strong></h3>
             </div>
             <div id="coockie2">
-                <h3>Chocolate Coockies: <strong>0,5€/pc</strong></h3>
+            <h3>Chocolate Coockies: <strong>0,5€/pc</strong></h3>
             </div> 
-    </div>
-    </section>
-    <br>
+        </div>
+        <br>
     
-    <section id="subscribe-and-win">
-        <h2>Subscribe to our page and you could be our next winner of Sweet Tooth's box of surpises!</h2>
-        <form>
-            <fieldset>
+        <section id="subscribe-and-win">
+            <form  action="welcome.html" method="POST">
+                <h2>Subscribe to our page and you could be our next winner of Sweet Tooth's box of surpises!</h2>
+                <fieldset>
                 <ul>
                     <li>
                         <label for="name">Name:</label>
-                        <input id="name" type="text" placeholder="Your full name" required> <br>
+                        <input id="name" type="text" name="name" placeholder="Your full name" required> <br>
                     </li>
                     <br>
                     <li>
@@ -134,28 +130,31 @@
                 </ul>
                 <input type="submit" value="Become a member">
 
-            </fieldset>
-
-    </section>
+                </fieldset>
+            </form>
+        </section>
+    </div>
+    
     <section id="hours"><br>
-    <h2>Our working hours:</h2>
-    <table>
-    <tr>
-    <th></th>
-    <th>Open</th>
-    <th>Close</th> </tr>
-    <tr>
-    <td>Monday-Friday</td>
-    <td style="font-weight: bold;">08:00</td>
-    <td style="font-weight: bold;">20:00</td>
-    <tr>
-    <td>Saturday-Sunday</td>
-    <td style="font-weight: bold;">10:00</td>
-    <td style="font-weight: bold;">20:00</td>
-    </tr>
-    </table>
-</section>
+        <h2>Our working hours:</h2>
+        <table>
+        <tr>
+        <th></th>
+        <th>Open</th>
+        <th>Close</th> </tr>
+        <tr>
+        <td>Monday-Friday</td>
+        <td style="font-weight: bold;">08:00</td>
+        <td style="font-weight: bold;">20:00</td>
+        <tr>
+        <td>Saturday-Sunday</td>
+        <td style="font-weight: bold;">10:00</td>
+        <td style="font-weight: bold;">20:00</td>
+        </tr>
+        </table>
+    </section>
     <br>
+    
 
     <footer>
         <section id= "info">
@@ -164,8 +163,8 @@
         </section>
 
     </footer>
-</div>
-<script>
+
+    <script>
     window.onscroll = function() {myFunction()};
         
         var menu = document.getElementById("menu");
