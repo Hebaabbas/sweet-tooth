@@ -135,13 +135,6 @@
                 <input type="submit" value="Become a member">
 
             </fieldset>
-            <script>
-                const form = document.querySelector('form');
-                form.addEventListener('submit', (event) => {
-                    event.preventDefault();
-                    alert('Thank you for subscribing, welcome to our sweet-tooth family!');
-                });
-            </script>
 
     </section>
     <section id="hours"><br>
@@ -172,20 +165,25 @@
 
     </footer>
 </div>
+<script>
+    const form = document.querySelector('form');
+    form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        alert('Thank you for subscribing, welcome to our sweet-tooth family!');
+    });
     
-    <script>
-        window.onscroll = function() {myFunction()};
+    window.onscroll = function() {myFunction()};
         
-        var menu = document.getElementById("menu");
-        var sticky = menu.offsetTop;
+    var menu = document.getElementById("menu");
+    var sticky = menu.offsetTop;
         
-        function myFunction() {
-          if (window.pageYOffset >= sticky) {
-            menu.classList.add("sticky")
-          } else {
-            menu.classList.remove("sticky");
-          }
+    function myFunction() {
+    if (window.pageYOffset >= sticky) {
+    menu.classList.add("sticky")
+    } else {
+    menu.classList.remove("sticky");
         }
-        </script>
+    }
+    </script>
 </body>
 </html>
