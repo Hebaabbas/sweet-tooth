@@ -133,8 +133,15 @@
                     </li>
                 </ul>
                 <input type="submit" value="Become a member">
+
             </fieldset>
-        </form>
+            <script>
+                const form = document.querySelector('form');
+                form.addEventListener('submit', (event) => {
+                    event.preventDefault();
+                    alert('Thank you for subscribing, welcome to our sweet-tooth family!');
+                });
+            </script>
 
     </section>
     <section id="hours"><br>
@@ -146,12 +153,12 @@
     <th>Close</th> </tr>
     <tr>
     <td>Monday-Friday</td>
-    <td>08:00</td>
-    <td>20:00</td>
+    <td style="font-weight: bold;">08:00</td>
+    <td style="font-weight: bold;">20:00</td>
     <tr>
     <td>Saturday-Sunday</td>
-    <td>10:00</td>
-    <td>20:00</td>
+    <td style="font-weight: bold;">10:00</td>
+    <td style="font-weight: bold;">20:00</td>
     </tr>
     </table>
 </section>
