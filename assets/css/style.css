@@ -7,7 +7,6 @@
 body{
 
     background-image: url('../images/glitter.webp');
-    display: inline-block;
     font-family: 'Playfair Display', serif;
 
 }
@@ -69,7 +68,7 @@ h3{
     position: sticky;
     top: 0;
     text-align: center;
-    ;
+
 }
     #menu, #logo{
       line-height: 70px;
