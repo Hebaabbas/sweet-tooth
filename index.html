@@ -18,8 +18,10 @@
             <div class="vertical-center">
             <h1>Sweet Tooth Shop</h1>
             <p>Taking pleasure to the next level!</p>
+            </div>
         </header>
     </div>
+        
     <div id="menu">
         <a href="index.html"></a>
         <a class= "active" href="#cakes">Cakes</a>
@@ -63,7 +65,7 @@
         <br>
    
         <div id="cupcakesandcoockies">
-        <h2>Our Cupcakes and Coockies</h2>
+            <h2>Our Cupcakes and Coockies</h2>
             <div id="cupcake1">
             <h3>Chocolate cupcakes: <strong> 1€/pc</strong></h3>
             </div>
@@ -86,27 +88,26 @@
             <form  action="welcome.html" method="POST">
                 <h2>Subscribe to our page and you could be our next winner of Sweet Tooth's box of surpises!</h2>
                 <fieldset>
-                <ul>
+                    <ul>
                     <li>
                         <label for="name">Name:</label>
                         <input id="name" type="text" name="name" placeholder="Your full name" required> <br>
                     </li>
-                    <br>
                     <li>
                         <label for="number">Age:</label>
                         <input type="number" id="number" name="number" required step="1" min="18" max="99">
                     </li>
-                    <br>
+                    
                     <li>
                         <label for="email">Email:</label>
                         <input id="email" type="email" placeholder="Your email adress" required>
                     </li>
-                    <br>
+                    
                     <li>
                         <label for="number">Telefon:</label>
                         <input type="number" placeholder="Your telefon number">
                     </li>
-                    <br>
+                    
         
                     <li>
                         <p>Would you be interested in sugar-free bakeries?</p>
@@ -117,7 +118,7 @@
                     </li>
                     <li>
                         <label for="flavour-choice">Which flavour would you first go for?</label>
-                        <input list="flavour" id="flavour-choice" name="flavour-choice" type="text" />
+                        <input list="flavour" id="flavour-choice" name="flavour-choice" type="text">
                     
                         <datalist id="flavour">
                             <option value="Chocolate"></option>
@@ -127,8 +128,8 @@
                             <option value="Cheesecake"></option>
                         </datalist>
                     </li>
-                </ul>
-                <input type="submit" value="Become a member">
+                    </ul>
+                    <input type="submit" value="Become a member">
 
                 </fieldset>
             </form>
@@ -159,13 +160,12 @@
     <footer>
         <section id= "info">
             <h2>Contact us</h2>
-            <span >Call us on: </span><span style="font-weight: bold;">+00 123 456 </span><br><span >Visit us at: </span><span style="font-weight: bold;"> Sweettooth street 1, Downtown, Heaven</span><br><span>Write to us on: </span><a href="https://www.facebook.com/" target="_blank" rel="noopener" style="font-weight: bold;">Facebook</a></span>
+            <span >Call us on: </span><span style="font-weight: bold;">+00 123 456 </span><br><span >Visit us at: </span><span style="font-weight: bold;"> Sweettooth street 1, Downtown, Heaven</span><br><span>Write to us on: </span><a href="https://www.facebook.com/" target="_blank" rel="noopener" style="font-weight: bold;">Facebook</a>
         </section>
-
     </footer>
 
     <script>
-    window.onscroll = function() {myFunction()};
+        window.onscroll = function() {myFunction()};
         
         var menu = document.getElementById("menu");
         var sticky = menu.offsetTop;

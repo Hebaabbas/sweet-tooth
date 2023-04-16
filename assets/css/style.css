@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&display=swap" rel="stylesheet');
 *{
-    margin-top: 0px;
     padding:0;
     border: none;
 }
 
 body{
-    font weight: 400;
+
     background-image: url('../images/glitter.webp');
     display: inline-block;
     font-family: 'Playfair Display', serif;
@@ -17,18 +16,21 @@ section {
 }
 /* headings and logo */
 .container {
-    max-width:1080px;
+    max-width:100%;
     width: 100%;
     padding: 1rem;
     margin: 0 auto;
 }
-#logo{
-    background-image:url('../images/cupcakes.png');
-    font-size: 40px;
-    padding-top: 30px;
-    animation-fill-mode:forwards;
-    animation-name:logo-zoom;
-    animation-duration: 5s;
+#logo {
+  background-image:url('../images/cupcakes.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover ;
+  font-size: 40px;
+  padding-top: 30px;
+  animation-fill-mode:forwards;
+  animation-name:logo-zoom;
+  animation-duration: 5s;
 }
 @keyframes logo-zoom {
     from{transform: scale(1);
@@ -193,6 +195,7 @@ margin: 0 auto;
 }
 /* Styles for screens smaller than 650px */
 @media screen and (max-width: 768px) {
+
   body {
     font-size: 18px;
   }
@@ -209,7 +212,6 @@ margin: 0 auto;
   #cakes div, #cupcakesandcoockies div {
     width: 100%;
   }
-  font-size: medium;
 }
   /* Styles for screens between 768px and 1023px */
   @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -225,11 +227,12 @@ margin: 0 auto;
     #cakes div, #cupcakesandcoockies div {
       width: 20%;
     }
-    font-size: medium;
   }
   
   /* Styles for screens larger than 1024px */
   @media screen and (min-width: 1024px) {
+
+    
     body {
       font-size: 20px;
     }
@@ -266,6 +269,8 @@ footer{
 #info, table, p > article {
   font-family: 'Playfair Display', serif;
 }
+
+
 
 
 
