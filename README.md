@@ -10,3 +10,7 @@ Here i will explain briefly of the contents of the website and how it will help 
 ### Logo
 The first thing the user will see is the big logo, i picked a picture to attract the users attention to one of the sorts that are sold in the shop; cupcakes. I also added a text on the logo to give the users a good expectation to the shop.
 ![image](https://raw.githubusercontent.com/Hebaabbas/sweet-tooth/main/logo.png)
+
+### Navigation bar
+In the website there is a navigation bar, the user can click on the section of interest and the website will reach to that point of section. I wanted to make it extra nice so i used some Java code to make the menu bar sticky in the website.
+![image](https://raw.githubusercontent.com/Hebaabbas/sweet-tooth/main/menu.png)
