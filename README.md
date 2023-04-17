@@ -39,3 +39,7 @@ This part is to give the user a good user experience of the website. This part i
 ### Opening hours
 This part is to inform the user what times the shop is open.
 ![image](https://raw.githubusercontent.com/Hebaabbas/sweet-tooth/main/openinghours.png)
+
+### footer ; contact information
+This part is to offer the user multiple ways of contact incase any contact was wanted or needed to be made.
+![image](https://raw.githubusercontent.com/Hebaabbas/sweet-tooth/main/contact.png)
