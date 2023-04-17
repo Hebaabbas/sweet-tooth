@@ -18,3 +18,7 @@ In the website there is a navigation bar, the user can click on the section of i
 ### Welcome to our shop
 This section is to briefly give an idea of the aim of the shop and to give a friendly vibe to the user as well as mentioning the chance of subscribing to the website to win a present.
 ![image](https://raw.githubusercontent.com/Hebaabbas/sweet-tooth/main/goal.png)
+
+### Our Cakes
+This feature gives a list of the cakes flavours available to be ordered and also the prices of each and every sort.
+![image](https://raw.githubusercontent.com/Hebaabbas/sweet-tooth/main/cakes.png)
