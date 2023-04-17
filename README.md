@@ -22,3 +22,7 @@ This section is to briefly give an idea of the aim of the shop and to give a fri
 ### Our Cakes
 This feature gives a list of the cakes flavours available to be ordered and also the prices of each and every sort.
 ![image](https://raw.githubusercontent.com/Hebaabbas/sweet-tooth/main/cakes.png)
+
+### Our cupcakes and coockies
+This feature gives a list of the cupcakes and coockies flavours available to be ordered and also the prices of each and every sort.
+![image](https://raw.githubusercontent.com/Hebaabbas/sweet-tooth/main/cup-coockies.png)
