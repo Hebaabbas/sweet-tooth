@@ -31,3 +31,7 @@ This feature gives a list of the cupcakes and coockies flavours available to be 
 This section is for the users that are interested to subscribe to the website page and could possibly win a present
 
 ![image](https://raw.githubusercontent.com/Hebaabbas/sweet-tooth/main/subscribe.png)
+
+### Thank you for Subscribing
+This part is to give the user a good user experience of the website.
+![image](https://raw.githubusercontent.com/Hebaabbas/sweet-tooth/main/thanks.png)
