@@ -26,3 +26,8 @@ This feature gives a list of the cakes flavours available to be ordered and also
 ### Our cupcakes and coockies
 This feature gives a list of the cupcakes and coockies flavours available to be ordered and also the prices of each and every sort.
 ![image](https://raw.githubusercontent.com/Hebaabbas/sweet-tooth/main/cup-coockies.png)
+
+### Our subscribtion section
+This section is for the users that are interested to subscribe to the website page and could possibly win a present
+
+![image](https://raw.githubusercontent.com/Hebaabbas/sweet-tooth/main/subscribe.png)
