@@ -56,3 +56,12 @@ The new page which gives the "Thank you for subscribing text" has no problems, t
 
 It also took a long time for me to make it nicer with a sticky nav menu. I wanted to make it easier and nicer for the user so i did an additional extra implement to the website and make the navigation menu sticky by the help of JavaScript.
 
+## Validator testing:
+HTML : No errors were returned when passing through the official W3C validator
+
+CSS : No errors were found when passing through the official (Jigsaw) validator
+
+## Unfixed bugs:
+There are no unfixed bugs left to be fixed in the website.
+
+
