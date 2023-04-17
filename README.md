@@ -43,3 +43,6 @@ This part is to inform the user what times the shop is open.
 ### footer ; contact information
 This part is to offer the user multiple ways of contact incase any contact was wanted or needed to be made.
 ![image](https://raw.githubusercontent.com/Hebaabbas/sweet-tooth/main/contact.png)
+
+### Features Left to Implement
+None, i have implemented all the features i had planned to implement.
