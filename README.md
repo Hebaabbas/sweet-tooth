@@ -33,5 +33,5 @@ This section is for the users that are interested to subscribe to the website pa
 ![image](https://raw.githubusercontent.com/Hebaabbas/sweet-tooth/main/subscribe.png)
 
 ### Thank you for Subscribing
-This part is to give the user a good user experience of the website.
+This part is to give the user a good user experience of the website. This part is the next step after filling up the private information like name age and email and after clicking on sumbit.
 ![image](https://raw.githubusercontent.com/Hebaabbas/sweet-tooth/main/thanks.png)
