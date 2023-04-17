@@ -4,7 +4,7 @@ Sweet tooth is an online website for a bakery shop which offers sweet bakeries s
 
 ![image](https://raw.githubusercontent.com/Hebaabbas/sweet-tooth/main/ui.png)
 
-## Feautures:
+## Features:
 Here i will explain briefly of the contents of the website and how it will help the users with what they're looking for.
 
 ### Logo
