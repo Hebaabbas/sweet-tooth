@@ -14,3 +14,7 @@ The first thing the user will see is the big logo, i picked a picture to attract
 ### Navigation bar
 In the website there is a navigation bar, the user can click on the section of interest and the website will reach to that point of section. I wanted to make it extra nice so i used some Java code to make the menu bar sticky in the website.
 ![image](https://raw.githubusercontent.com/Hebaabbas/sweet-tooth/main/menu.png)
+
+### Welcome to our shop
+This section is to briefly give an idea of the aim of the shop and to give a friendly vibe to the user as well as mentioning the chance of subscribing to the website to win a present.
+![image](https://raw.githubusercontent.com/Hebaabbas/sweet-tooth/main/goal.png)
