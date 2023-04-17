@@ -46,3 +46,13 @@ This part is to offer the user multiple ways of contact incase any contact was w
 
 ### Features Left to Implement
 None, i have implemented all the features i had planned to implement.
+
+## Testing
+The testing part has been the most one taking time as i was testing the website every time i add or change code. Testing that all content of the website fit perfectly and nicely in the web page, that it looks nice on all screen sizes, and that the subscribtion parts works great and leads the user to another page which gives the thank you page.
+
+I mostly had many issues with fixing that the screen fits in all screen sizes, but reading through more and searching more i had finally been able to reach the part i was trying to reach. 
+
+The new page which gives the "Thank you for subscribing text" has no problems, the only thing to point out is that once the user clicks on sumbit then the user will get an error message page, the user has to just refresh the page.
+
+It also took a long time for me to make it nicer with a sticky nav menu. I wanted to make it easier and nicer for the user so i did an additional extra implement to the website and make the navigation menu sticky by the help of JavaScript.
+
