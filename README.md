@@ -64,4 +64,12 @@ CSS : No errors were found when passing through the official (Jigsaw) validator
 ## Unfixed bugs:
 There are no unfixed bugs left to be fixed in the website.
 
+# Deployment:
+This section is to describe the process of deploying the website on Github:
+
+First, In the GitHub repository, I navigated to the Settings tab, then i have selected the pages options from the setting tab options and have selected the Main Branch.
+Once the Main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - https://hebaabbas.github.io/sweet-tooth/
+
+
 
